@@ -2,7 +2,7 @@ Feature: senaryo
 
   Scenario: n11 test
     * Driver basliginin "ANASAYFA" oldugu kontrol edilir
-    * Siteye "zeynepdinc.23@gmail.com" kullanici adi ve "23N2020" sifresiyle login olunur
+    * Siteye "user_mail" kullanici adi ve "sifre" sifresiyle login olunur
     * Login islemi sonucu kullanici adinin "zeynep Dinç" oldugu kontrol edilir
     * "Iphone" kelimesi aranir
     * Driver basliginin "URUN_SAYFASI" oldugu kontrol edilir
