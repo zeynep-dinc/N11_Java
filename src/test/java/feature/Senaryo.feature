@@ -6,17 +6,7 @@ Feature: senaryo
     * Login islemi sonucu kullanici adinin "zeynep Dinç" oldugu kontrol edilir
     * "Iphone" kelimesi aranir
     * Driver basliginin "URUN_SAYFASI" oldugu kontrol edilir
-    * "PAGE_DOWN" tusuna bas
-    * "PAGE_DOWN" tusuna bas
-    * "PAGE_DOWN" tusuna bas
-    * "PAGE_DOWN" tusuna bas
-    * "PAGE_DOWN" tusuna bas
-    * "PAGE_DOWN" tusuna bas
-    * "PAGE_DOWN" tusuna bas
-    * "PAGE_DOWN" tusuna bas
-    * "PAGE_DOWN" tusuna bas
-    * "PAGE_DOWN" tusuna bas
-    * "PAGE_DOWN" tusuna bas
+    *  10 kez "PAGE_DOWN" tusuna bas
     * Arama sonuclari sayfasindan 2 sayfa acilir
     * 2 sayfanin acildigi kontrol edilir
     * "PAGE_DOWN" tusuna bas

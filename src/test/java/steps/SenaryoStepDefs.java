@@ -66,9 +66,11 @@ public class SenaryoStepDefs extends ActionList {
         waitFor(2);
     }
 
-    @Given("{string} tusuna bas")
-    public void tusuna_bas(String tusAdi) {
-        sendKeysWithActionMethod(Keys.valueOf(tusAdi));
+    @Given("{int} kez {string} tusuna bas")
+    public void tusuna_bas(int sayac,String tusAdi) {
+        for (int i=0;i<sayac;i++){
+            sendKeysWithActionMethod(Keys.valueOf(tusAdi));
+        }
     }
 
     @Given("Arama sonuclari sayfasindan {int} sayfa acilir")
